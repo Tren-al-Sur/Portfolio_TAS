@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo TAS.png">
+</head>
+<body>
+    <div class="container">
+        <a href="works.html" class="nav-back">💼 Nuestro Trabajo</a>
+        <div class="header">
+            <h1>Tren al Sur</h1>
+            <p>Conoce a los profesionales que conforman nuestro equipo.</p>
+        </div>
+
+        <!-- Navbar con círculos -->
+        <div class="navbar">
+            <div class="nav-circle active" onclick="showMember(1)" data-member="1">T.B</div>
+            <div class="nav-circle" onclick="showMember(2)" data-member="2">I.B</div>
+            <div class="nav-circle" onclick="showMember(3)" data-member="3">F.G</div>
+            <div class="nav-circle" onclick="showMember(4)" data-member="4">J.J</div>
+            <div class="nav-circle" onclick="showMember(5)" data-member="5">E.J</div>
+        </div>
+
+        <!-- Container para las tarjetas -->
+        <div class="card-container">
+            <!-- Miembro 1 -->
+            <div class="member-card active" id="member-1">
+                <div class="card-content">
+                    <div class="left-column">
+                        <div class="photo-container"><img src="./assets/img/tb.png" class="img-TB"></div>
+                        
+                        <h3 class="member-name-left">Tomás Bravo</h3>
+                        
+                        <div class="contact-buttons">
+                            <a href="mailto:tomas.bravogg@gmail.com" class="contact-btn email-btn">📧 Email</a>
+                            <a href="https://github.com/Tz-1" class="contact-btn phone-btn" target="_blank">
+                                <svg class="github-icon" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg> GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="right-column">
+                        <div class="member-info">
+                            <div class="info-section">
+                                <span class="info-label">🌸 ¿Quién eres?</span>
+                                <p class="info-content">Soy Tomás Bravo, una persona con un gran interes por la tecnologia y el conocimiento.</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">📍 ¿De dónde eres?</span>
+                                <p class="info-content">Chile, Santiago</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">📑 ¿A qué te dedicas?</span>
+                                <p class="info-content">Freelance en Desarrollo Full-Stack mediante Java o Python. Tecnico Farmaceutico.</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">🎓 ¿Cuál es tu formación?</span>
+                                <p class="info-content">IP completada en TSQF y certificaciones Full-Stack en Java y Python.</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">📚 ¿Cuáles son tus experiencias previas?</span>
+                                <p class="info-content">He desarrollado multiples paginas web con conocimientos en HTML, CSS, JavaScript, Java y Python con multiples framework como lo son Django y SpringBoot. En ellas he manejado base de datos como lo son PostgreSQL y MySQL, SQLite. Poseo una pequeña experiencia en programas de desarrollo de videojuegos como lo son Unity y GameMaker2.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Miembro 2 -->
+            <div class="member-card" id="member-2">
+                <div class="card-content">
+                    <div class="left-column">
+                        <div class="photo-container" id="IB"><img src="./assets/img/IB.png" class="img-IB"></div>
+                        
+                        <h3 class="member-name-left">Ian Beroíza</h3>
+                        
+                        <div class="contact-buttons">
+                            <a href="mailto:ian.beroiza@gmail.com" class="contact-btn email-btn">📧 Email</a>
+                        </div>
+                    </div>
+
+                    <div class="right-column">
+                        <div class="member-info">
+                            <div class="info-section">
+                                <span class="info-label">🌸 ¿Quién eres?</span>
+                                <p class="info-content">Hombre de 41 años, casado, Técnico en informática.</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">📍 ¿De dónde eres?</span>
+                                <p class="info-content">Chile, Región de los Ríos, Valdivia.</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">📑 ¿A qué te dedicas?</span>
+                                <p class="info-content">Docencia de software como Microsoft Office, redes y sistemas operativos. Experiencia en soporte informático en instituciones académicas y organismos públicos. Enfocado en la mejora continua y en la implementación de tecnologías para optimizar procesos educativos y administrativos.</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">🎓 ¿Cuál es tu formación?</span>
+                                <p class="info-content">Técnico en Informática con amplia experiencia en capacitación en herramientas ofimáticas y soporte técnico.</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">📚 ¿Cuáles son tus experiencias previas?</span>
+                                <div class="info-content">
+                                    <b>Relatorías y Capacitaciones (15 años)</b>
+                                    <ul>
+                                        <li>Docente en herramientas ofimáticas: Microsoft Word, Excel, PowerPoint, Access, Outlook.</li>
+                                        <li>Capacitación en sistemas operativos, redes e internet.</li>
+                                        <li>Experiencia en capacitación para organismos públicos y empresas privadas.</li>
+                                    </ul>
+
+                                    <b>Educación y Tecnología (4 años)</b>
+                                    <ul>
+                                        <li>Integración de tecnologías educativas en el aula.</li>
+                                        <li>Apoyo a docentes en el uso de herramientas digitales.</li>
+                                    </ul>
+                                    <b>Soporte Técnico (6 años)</b>
+                                    <ul>
+                                        <li>Mantenimiento de equipos computacionales y redes.</li>
+                                        <li>Instalación y mantenimiento de cámaras de seguridad.</li>
+                                        <li>Ensamblaje y configuración de computadores.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Miembro 3 -->
+            <div class="member-card" id="member-3">
+                <div class="card-content">
+                    <div class="left-column">
+                        <div class="photo-container"><img src="./assets/img/FG.webp" class="img-FG"></div>
+                        
+                        <h3 class="member-name-left">Fabián Grubelic</h3>
+                        
+                        <div class="contact-buttons">
+                            <a href="mailto:fabian.grubelic@gmail.com" class="contact-btn email-btn">📧 Email</a>
+                        </div>
+                    </div>
+
+                    <div class="right-column">
+                        <div class="member-info">
+                            <div class="info-section">
+                                <span class="info-label">🌸 ¿Quién eres?</span>
+                                <p class="info-content">Varon, 30 años, casado, Estudiante de ingeniería en informática.</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">📍 ¿De dónde eres?</span>
+                                <p class="info-content">Chile, Rancagua.</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">📑 ¿A qué te dedicas?</span>
+                                <p class="info-content">Me Dedico a ser jefe de recepción de un hotel y ser analista de ciberseguridad SOC en una empresa de ciberseguridad.</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">🎓 ¿Cuál es tu formación?</span>
+                                <p class="info-content">Ingeniero Comercial, Universidad de Concepción. Certificaciones en Google Ads, Facebook Blueprint y HubSpot Inbound Marketing.</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">📚 ¿Cuáles son tus experiencias previas?</span>
+                                <div class="info-content">
+                                    <b>Recepcionista de Hotel (2 años)</b>
+                                    <ul>
+                                        <li>Atencion al publico.</li>
+                                        <li>Recepcion y gestion de reservas.</li>
+                                        <li>Gestion de pagos y manejo de cuentas pendientes.</li>
+                                    </ul>
+
+                                    <b>Jefe de recepcion de Hotel (2 años)</b>
+                                    <ul>
+                                        <li>Atencion al publico.</li>
+                                        <li>Gestion de horarios.</li>
+                                        <li>Manejo de personal y Gestion de reservas y eventos.</li>
+                                    </ul>
+
+                                    <b>Administrador de bar (4 años)</b>
+                                    <ul>
+                                        <li>Atencion al publico.</li>
+                                        <li>Gestion de personal y contabilidad.</li>
+                                    </ul>
+
+                                    <b>Garzon y Barman (2 años)</b>
+                                    <ul>
+                                        <li>Atencion al publico.</li>
+                                        <li>Preparacion de tragos.</li>
+                                        <li>Toma de pedidos y venta de productos.</li>
+                                    </ul>
+
+                                    
+                                    <b>Analista de Ciberseguridad (1 año)</b>
+                                    <ul>
+                                        <li>Capacitado en utilización de Wazuh.</li>
+                                        <li>Programación en python.</li>
+                                        <li>Gestion de servidores.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Miembro 4 -->
+            <div class="member-card" id="member-4">
+                <div class="card-content">
+                    <div class="left-column">
+                        <div class="photo-container"><img src="./assets/img/JJ.png" class="img-JJ"></div>
+                        
+                        <h3 class="member-name-left">Juan Jara</h3>
+                        
+                        <div class="contact-buttons">
+                            <a href="mailto:dev.jjara@gmail.com" class="contact-btn email-btn">📧 Email</a>
+                        </div>
+                    </div>
+
+                    <div class="right-column">
+                        <div class="member-info">
+                            <div class="info-section">
+                                <span class="info-label">🌸 ¿Quién eres?</span>
+                                <p class="info-content">Autodidacta y un apasionado de la tecnología desde que tengo memoria, con una computadora a los 7 años y una curiosidad que nunca ha dejado de crecer.</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">📍 ¿De dónde eres?</span>
+                                <p class="info-content">Chile, Santiago</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">📑 ¿A qué te dedicas?</span>
+                                <p class="info-content">Administrador de portales web y ayudante de bodega.</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">🎓 ¿Cuál es tu formación?</span>
+                                <p class="info-content">Universidad incompleta. Certificación en desarrollador Full-Stack Javascript.</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">📚 ¿Cuáles son tus experiencias previas?</span>
+                                <div class="info-content">
+                                    <b>Desarrollador Front-End - Unabase</b>
+                                    <ul>
+                                        <li>Crear código limpio.</li>
+                                        <li>Crear funcionalidades para app “vxpro”.</li>
+                                        <li>Reparar errores..</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Miembro 5 -->
+            <div class="member-card" id="member-5">
+                <div class="card-content">
+                    <div class="left-column">
+                        <div class="photo-container"><img src="./assets/img/EJ.webp" class="img-EJ"></div>
+                        
+                        <h3 class="member-name-left">Elizabeth Jerez</h3>
+                        
+                        <div class="contact-buttons">
+                            <a href="mailto:elizabethjerezr@gmail.com" class="contact-btn email-btn">📧 Email</a>
+                        </div>
+                    </div>
+
+                    <div class="right-column">
+                        <div class="member-info">
+                            <div class="info-section">
+                                <span class="info-label">🌸 ¿Quién eres?</span>
+                                <p class="info-content">Soy Elizabeth Jerez, mujer y madre, trabajadora y de carácter constante.</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">📍 ¿De dónde eres?</span>
+                                <p class="info-content">Chile, Region Metropolitana, Estación Central</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">📑 ¿A qué te dedicas?</span>
+                                <p class="info-content">Actualmente me desempeño como profesional independiente y estudiante, enfocada en el área de seguridad en plataformas computacionales, complementando mi experiencia en gestión y desarrollo tecnológico.</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">🎓 ¿Cuál es tu formación?</span>
+                                <p class="info-content">Soy Ingeniera Civil Industrial e Ingeniera en Administración de Empresas, con mención en Finanzas. Actualmente curso Fundamentos de seguridad en plataformas computacionales para fortalecer mis competencias en el ámbito tecnológico.</p>
+                            </div>
+                            <div class="info-section">
+                                <span class="info-label">📚 ¿Por qué deberían contactarme?</span>
+                                <p class="info-content">Cuento con una sólida trayectoria en los sectores bancario, asegurador y de exportación. He desarrollado habilidades en programas informáticos como Prisma, Nest y PostgreSQL, además de conocimientos en lenguajes como HTML, CSS, JavaScript y Ruby on Rails.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="footer"></footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
