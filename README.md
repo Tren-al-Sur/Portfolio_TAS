@@ -10,7 +10,7 @@
 Portafolio web interactivo y responsivo del equipo **Tren al Sur**. Presenta información detallada de cada miembro del equipo y proyectos destacados con un diseño moderno y elegante utilizando gradientes, animaciones CSS y JavaScript vanilla.
 
 ## 🥼 Analisis Previo a la creacion de Portafolio
-Puedes ver nuestro analisis mediante nuestro PDF creado: [Ver reporte del proyecto](Portfolio_TAS/Analisis/DESAFÍO - FINALIZACIÓN DEL PROYECTO.pdf.pdf)
+Puedes ver nuestro analisis mediante nuestro PDF creado: [Ver reporte del proyecto](/Analisis/Análisis.pdf)
 
 ## 🌟 Características
 
