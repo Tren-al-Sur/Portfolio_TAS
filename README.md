@@ -78,21 +78,6 @@ Puedes ver nuestro analisis mediante nuestro PDF creado: [Ver reporte del proyec
 @media (min-width: 1200px) { /* Desktop grande */ }
 ```
 
-## 🔧 Instalación y Uso
-
-1. **Clonar el repositorio**
-   ```bash
-   git clone https://github.com/username/portafolio-tren-al-sur.git
-   cd portafolio-tren-al-sur
-   ```
-
-2. **Abrir en navegador**
-   ```bash
-   # Usando Live Server (recomendado)
-   # O simplemente abrir index.html en tu navegador
-   # https://tren-al-sur.github.io/Portfolio_TAS/index.html
-   ```
-
 ## 📈 Características Técnicas
 
 ### Performance
