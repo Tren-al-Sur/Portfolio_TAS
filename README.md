@@ -9,6 +9,9 @@
 
 Portafolio web interactivo y responsivo del equipo **Tren al Sur**. Presenta información detallada de cada miembro del equipo y proyectos destacados con un diseño moderno y elegante utilizando gradientes, animaciones CSS y JavaScript vanilla.
 
+## 🥼 Analisis Previo a la creacion de Portafolio
+Puedes ver nuestro analisis mediante nuestro PDF creado: 
+
 ## 🌟 Características
 
 - ✨ **Diseño Moderno**: Interfaz elegante con gradientes y efectos visuales
